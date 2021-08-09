@@ -2,14 +2,17 @@ source 'https://rubygems.org'
 
 group :test do
   gem "coveralls", require: false
-
   gem "capybara"
+
   gem "sqlite3", "~> 1.4"
-  gem "devise"
 end
 
 gem "rails", "~> 6.0.0"
 gem "sassc-rails"
+
+gem "devise"
+gem "cancancan"
+gem "pundit"
 
 gem "rake", "~> 12.0"
 
