@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/TrestleAdmin/trestle-auth"
+  spec.metadata["source_code_uri"] = "https://github.com/xianglli/trestle-auth"
 
   spec.add_dependency "trestle", "~> 0.9.0", ">= 0.9.3"
   spec.add_dependency "bcrypt",  "~> 3.1.7"
